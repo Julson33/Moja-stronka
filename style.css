@@ -1,0 +1,210 @@
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    top: 0;
+    font-weight: 600; 
+    backdrop-filter: saturate(180%) blur(20px); 
+    position: sticky;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.burger{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between; 
+}
+.itemburger{
+    display: flex;
+}
+
+.item{
+    padding: 0 30px;
+    line-height: 60px;
+}
+
+.logo{
+    line-height: 60px;
+    font-weight : 800;
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main>h2{
+    margin-top:38px;
+    text-align: center;
+}
+.postlist{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-gap: 24px;
+
+}
+.authortext>input[type=submit]{
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    font-weight: 600;
+    color: snow;
+    cursor: pointer;
+    
+}
+.tekst{
+    color: black;
+}
+
+article>img{
+    width: 100%;
+    object-fit: cover;
+    height: 170px;
+}
+article{
+    box-shadow: 0 10px  15px -3px #0000001a
+
+}
+.tekst>.category{
+    color: turquoise;
+}
+
+.author>img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.authortext>p{
+    color: black;
+    margin: 0 ;
+
+}
+.author>img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.author{
+    display: flex;
+}
+
+section{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 100px;
+}
+section>h2{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+section>img{
+    
+    width: 200px;
+    height: 200px;
+    margin-right: 16px;
+    box-shadow: 0 10px 15px -3px #0000009a;
+}
+
+section>form{
+    width: calc(100% - 216px);
+    
+}
+
+
+form>input,form>textarea{
+    width: 100%;
+    border: none;
+    box-shadow: 0 10px 15px -3px #0000001a;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+form>input[type=submit]{
+    width: 25%;
+    background-color: #2563eb;
+    font-weight: 600;
+    color: snow;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: snow;
+    font-weight: 600;
+    text-align: center;
+    line-height: 60px;
+}
+.artykol{
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.artykol>img{
+    width: 1000px;
+    
+    
+}
+.artykol>.data{
+    text-align: center;
+}
+.artykol>h1{
+    text-align: center;
+}
+.artykol>p{
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.artykul{
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.artykul>img{
+    width: 1000px;
+    
+}
+.artykul>.data{
+    text-align: center;
+}
+.artykul>h1{
+    text-align: center;
+}
+.artykul>p{
+    text-align: center;
+}
+.artyle{
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.artyle>img{
+    width: 100%;
+    
+}
+.artyle>.data{
+    text-align: center;
+}
+.artyle>h1{
+    text-align: center;
+}
+.artyle>p{
+    text-align: center;
+}
+
